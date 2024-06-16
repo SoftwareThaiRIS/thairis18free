@@ -24,25 +24,16 @@
 # This Copyright is in full effect in any country that has International     
 ##############################################################################
 $host ="localhost";
-$user ="thairis1_thairis";
-$password ="xxxxxxxx";
-$dbname ="thairis1_thairisfree";
-
+$user ="yourusername";
+$password ="yourpassword";
+$dbname ="ris";
 error_reporting(E_ERROR);
-
-
 $dbconnect = mysqli_connect($host,$user,$password,$dbname);
 if (!$dbconnect) 
 	{
 		echo "Can't connect to Server Please contect Admin";
 		exit;
 	}
-
-
 MYSQLI_SELECT_DB($dbconnect, $dbname) OR DIE("Error".mysql_error());
-
-
 include ("config.php");
-
-
 ?>
