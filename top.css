@@ -1,0 +1,34 @@
+.searchform div {
+height: 26px;
+width: 193px;
+}
+
+.searchboxwrapper {
+position: relative;
+}
+
+.searchbox {
+border: 1px solid #dadada;
+outline: none;
+font: 11px 'Montserrat', sans-serif;
+color: #777;
+width: 182px;
+height: 26px;
+background: #fff;
+padding-left: 10px;
+}
+
+.searchsubmit {
+font-family: 'FontAwesome';
+width: 29px;
+height: 29px;
+border: 1px solid #dadada;
+font-size: 12px;
+position: absolute;
+top: 0;
+right: 0;
+background: #dadada;
+border: none;
+color: #5d3250;
+cursor: hand; cursor: pointer;
+}
